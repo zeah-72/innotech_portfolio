@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Montserrat:wght@300;500&display=swap');
+
+
+/* General Theme - Inspired by Fashion Tech look */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  background-color: #fdfdfd;
+}
+
+/* Navbar */
+.custom-navbar {
+   background-image:url("image/header.jpg");
+  background-size:cover;
+    background-position:center;
+}
+.navbar-nav .nav-link.active{
+  color: var(--bs-navbar-color-light);
+}
+
+.custom-navbar-brand{ 
+    font-family: 'Montserrat';
+}
+
+.custom-navbar .nav-link {
+   font-family: 'Montserrat';
+  font-weight: 500;
+  color:#f0f0f0;
+  transition: color 0.3s ease;
+}
+
+.custom-navbar .nav-link:hover,
+.custom-navbar{
+  color: #c2185b; 
+}
+
+/* Hero */
+.hero {
+    background-image:url("image/bg1.jpeg");
+    background-size:cover;
+    background-position:center;
+  color: #fff;
+  min-height: 100vh;
+}
+
+.hero h1 {
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  font-family: 'Montserrat';
+}
+
+/* Buttons */
+.btn-theme {
+  background-color: #c2185b;
+  color: #fff;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-theme:hover {
+  background-color: #a01548;
+  color: #fff;
+  transition: transform 0.3s ease;
+  transform: scale(0.9)
+}
+
+/* Section Titles */
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #e01667;
+  margin-bottom: 2rem;
+}
+
+/* Service Cards */
+.service-card {
+  border: none;
+  background: #b42177a8;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 20px;
+}
+
+.service-card:hover {
+  box-shadow:#333;
+  transition: transform 0.3s ease;
+  transform: scale(0.9);
+}
+
+/* Portfolio */
+.py-5:hover{
+  transition: transform 0.3s ease;
+}
+
+.portfolio-card img {
+  transition: transform 0.3s ease;
+  height: 300px;          
+  object-fit:contain;  
+}
+
+
+.portfolio-card:hover img {
+  transform: scale(1.05);
+   transform: scale(0.9)
+}
+
+/* Footer */
+.custom-footer {
+  background-color: #c2185b;
+  color: #fff;
+}
+
+.custom-footer .social-link {
+  color:#fff;
+  transition: color 0.3s ease;
+
+}
+
+.custom-footer .social-link:hover {
+  color: #333;
+}
