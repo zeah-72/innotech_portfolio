@@ -1,6 +1,4 @@
-Name: Zeah Samantha Nicole D. Ventula
-Student ID: 2024300821
-
+Laboratory Project
 
 "Completed InnoTech Portfolio homepage"
 
